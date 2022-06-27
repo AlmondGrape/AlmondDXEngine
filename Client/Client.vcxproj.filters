@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="WinMain">
+      <UniqueIdentifier>{9000cf04-d225-4e65-8367-c827287e5f9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{abeacd3f-ae34-4950-91ad-d66c51713a5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternFileParser">
+      <UniqueIdentifier>{aa2dfe77-764d-4aa1-85f0-6c67bc7a511c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientUtil">
+      <UniqueIdentifier>{a00a3996-8ba8-486a-b40a-cb0afd650b62}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>WinMain</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonDoc.h">
+      <Filter>ExternFileParser</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonBase.h">
+      <Filter>ClientUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="WinManager.h">
+      <Filter>WinMain</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonDoc.cpp">
+      <Filter>ExternFileParser</Filter>
+    </ClCompile>
+    <ClCompile Include="WinManager.cpp">
+      <Filter>WinMain</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

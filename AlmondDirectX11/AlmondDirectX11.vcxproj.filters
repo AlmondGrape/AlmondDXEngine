@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Export">
+      <UniqueIdentifier>{cbbbd147-9788-4ad5-9aaa-f01162c097f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX11">
+      <UniqueIdentifier>{003a4d2f-9b88-4f9c-820f-f6c798b320bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLLMain">
+      <UniqueIdentifier>{1fc2b6fa-42b9-4509-a044-261494fc24f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{73aea09a-75ad-4db9-b952-0e595a5fc892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX11\Util">
+      <UniqueIdentifier>{1f3472b4-8a51-4f2d-9abd-1c37d472a043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicResources">
+      <UniqueIdentifier>{fb567262-5f7f-4cac-a1b1-229a423dc608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicResources\Material">
+      <UniqueIdentifier>{043b76c8-c944-4bcc-be35-b7418386ea2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicResources\Mesh">
+      <UniqueIdentifier>{76814785-2374-4c0b-a9c0-57fc94e64732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicResources\Texture">
+      <UniqueIdentifier>{439cc06a-3bd8-4261-9532-0d70e1e6a910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicResources\Shader">
+      <UniqueIdentifier>{81708528-aa21-4c34-8496-e55b200a36f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicResources\Buffer">
+      <UniqueIdentifier>{f62ed092-06ef-45c9-aa82-1ff85ddb014d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicResources\Shader\Resources">
+      <UniqueIdentifier>{0a714393-2b47-436e-b4ed-4a7c2c12c6c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="IGraphics.h">
+      <Filter>Export</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics_DX11.h">
+      <Filter>DirectX11</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>DirectX11</Filter>
+    </ClInclude>
+    <ClInclude Include="RasterizerState.h">
+      <Filter>DirectX11</Filter>
+    </ClInclude>
+    <ClInclude Include="SwapChain.h">
+      <Filter>DirectX11</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTarget.h">
+      <Filter>DirectX11</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DUtil.h">
+      <Filter>DirectX11\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleMath.h">
+      <Filter>DirectX11\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthStencilState.h">
+      <Filter>DirectX11</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader_def.h">
+      <Filter>GraphicResources\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>GraphicResources\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="IShader.h">
+      <Filter>GraphicResources\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>GraphicResources\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>GraphicResources\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexTypes.h">
+      <Filter>GraphicResources\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffer.h">
+      <Filter>GraphicResources\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantTypes.h">
+      <Filter>GraphicResources\Buffer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>DLLMain</Filter>
+    </ClCompile>
+    <ClCompile Include="IGraphics.cpp">
+      <Filter>Export</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics_DX11.cpp">
+      <Filter>DirectX11</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>DirectX11</Filter>
+    </ClCompile>
+    <ClCompile Include="RasterizerState.cpp">
+      <Filter>DirectX11</Filter>
+    </ClCompile>
+    <ClCompile Include="SwapChain.cpp">
+      <Filter>DirectX11</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTarget.cpp">
+      <Filter>DirectX11</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleMath.cpp">
+      <Filter>DirectX11\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthStencilState.cpp">
+      <Filter>DirectX11</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>GraphicResources\Mesh</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Export">
+      <UniqueIdentifier>{639d70cb-d24f-46f1-9fd5-4318e2c56125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{57a3ef5d-f565-4f05-8ec4-e8e7e1a899df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLLMain">
+      <UniqueIdentifier>{b1344ddc-51a7-40a9-a92b-67a197be26b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX12">
+      <UniqueIdentifier>{4aa823b3-3718-4203-85f6-f243c8a7c2f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandQueue.h">
+      <Filter>DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffer.h">
+      <Filter>DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthStencilBuffer.h">
+      <Filter>DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics_DX12.h">
+      <Filter>DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="IGraphics.h">
+      <Filter>Export</Filter>
+    </ClInclude>
+    <ClInclude Include="RootSignature.h">
+      <Filter>DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="SwapChain.h">
+      <Filter>DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="TableDescriptorHeap.h">
+      <Filter>DirectX12</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>DLLMain</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandQueue.cpp">
+      <Filter>DirectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantBuffer.cpp">
+      <Filter>DirectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthStencilBuffer.cpp">
+      <Filter>DirectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>DirectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics_DX12.cpp">
+      <Filter>DirectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="IGraphics.cpp">
+      <Filter>Export</Filter>
+    </ClCompile>
+    <ClCompile Include="RootSignature.cpp">
+      <Filter>DirectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="SwapChain.cpp">
+      <Filter>DirectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="TableDescriptorHeap.cpp">
+      <Filter>DirectX12</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

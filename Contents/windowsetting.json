@@ -1,0 +1,9 @@
+﻿{
+  "ApplicationName": "ProjectN",
+  "TitleName": "Direct3D Engine Assignment",
+  "FullScreen": false,
+  "BorderessWindow": false,
+  "GraphicLibrary": "DirectX11",
+  "WindowWidth": 1920,
+  "WindowHeight": 980
+}

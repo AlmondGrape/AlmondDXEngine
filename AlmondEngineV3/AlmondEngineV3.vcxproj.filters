@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DLLMain">
+      <UniqueIdentifier>{48c53ec3-614f-478a-9365-69bb5dc59779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{43361203-2177-4d96-b03f-8a419d056095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Export">
+      <UniqueIdentifier>{685c72f8-9f9a-42ce-8432-e019bd0cb0cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{e50f8890-4695-4175-b61e-b6b8d25283df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Import">
+      <UniqueIdentifier>{ea2205bb-532c-4a3f-937b-143539c6defa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="IAlmondEngine.h">
+      <Filter>Export</Filter>
+    </ClInclude>
+    <ClInclude Include="Almond_GameEngine.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AlmondEngine_Import.h">
+      <Filter>Import</Filter>
+    </ClInclude>
+    <ClInclude Include="EnginePCH.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>DLLMain</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="IAlmondEngine.cpp">
+      <Filter>Export</Filter>
+    </ClCompile>
+    <ClCompile Include="Almond_GameEngine.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="EnginePCH.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
